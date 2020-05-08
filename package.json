@@ -1,0 +1,24 @@
+{
+  "name": "xss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Vlad Klimov",
+  "license": "ISC",
+  "keywords": [
+    "xss",
+    "cross-site-scripting"
+  ],
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -L index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "escape-html": "^1.0.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
